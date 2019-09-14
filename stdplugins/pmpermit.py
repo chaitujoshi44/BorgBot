@@ -16,9 +16,9 @@ borg.storage.PREV_REPLY_MESSAGE = {}
 
 
 BAALAJI_TG_USER_BOT = "My Master isn't Online Right Now.."
-TG_COMPANION_USER_BOT = "Mc 2min ruk spam mat kar he isn't online.."
-UNIBORG_USER_BOT_WARN_ZERO = "Offline hai mera Master Gandu 2min Rukja."
-UNIBORG_USER_BOT_NO_WARN = "Nikal Lavde pheli Fursat me Nikal. Thanks"
+TG_COMPANION_USER_BOT = "Wait till my master come online"
+UNIBORG_USER_BOT_WARN_ZERO = "Offline hai mera Master rukjao."
+UNIBORG_USER_BOT_NO_WARN = "You are blocked for Replacement now. Dont ask again. Thanks"
 
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
