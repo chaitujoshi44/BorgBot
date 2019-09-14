@@ -16,10 +16,9 @@ borg.storage.PREV_REPLY_MESSAGE = {}
 
 
 BAALAJI_TG_USER_BOT = "My Master isn't Online Right Now.."
-TG_COMPANION_USER_BOT = "Wait till my master come online"
+TG_COMPANION_USER_BOT = ".Wait,My Master isn't Online Right Now"
 UNIBORG_USER_BOT_WARN_ZERO = "Offline hai mera Master rukjao."
-UNIBORG_USER_BOT_NO_WARN = "You are blocked for Replacement now. Dont ask again. Thanks"
-
+UNIBORG_USER_BOT_NO_WARN = "Wait,My Master isn't Online Right Now."
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def monito_p_m_s(event):
